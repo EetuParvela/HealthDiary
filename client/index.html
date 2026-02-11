@@ -2,12 +2,42 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>client</title>
+    <title>Health Diary</title>
+    <link rel="stylesheet" href="../src/style.css" />
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <nav class="navbar">
+      <a href="index.html">Diary</a>
+      <a href="profile.html">Profile</a>
+    </nav>
+
+    <div class="container">
+      <section id="diary-view">
+        <h2>Daily Log</h2>
+
+        <div class="form-group">
+          <label>Date</label>
+          <input type="date" id="date" />
+        </div>
+
+        <div class="form-group">
+          <label>Mood (1-10)</label>
+          <input type="range" id="mood" min="1" max="10" />
+        </div>
+
+        <div class="form-group">
+          <label>Notes</label>
+          <textarea id="notes" rows="2" placeholder="What's on you mind?"></textarea>
+        </div>
+        <button id="save-btn">Save Entry</button>
+
+        <h3 style="margin-top: 15px;">Saved Entries</h3>
+        <div id="entries-list">
+          <!-- Entries will be displayed here -->
+        </div>
+
+      </section>
+    </div>
   </body>
 </html>
