@@ -3,44 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/css/diary.css" />
-    <title>Health Diary</title>
+    <link rel="stylesheet" href="src/css/login.css" />
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+    <title>Health Diary - Login</title>
   </head>
   <body>
-    <nav class="navbar">
-      <a href="diary.html">Diary</a>
-      <a href="login.html">Profile</a>
-      <a href="bmi.html">BMI Calculator</a>
-    </nav>
 
-    <div class="container">
-      <section id="diary-view">
+    <div class="wrapper">
+      <h1>Health Diary</h1>
 
-        <h2>Daily Log</h2>
+      <div class="login-box">
 
-        <div class="form-group">
-          <label>Date</label>
-          <input type="date" id="date" />
+      <form action="">
+
+        <h2>Login</h2>
+
+        <div class="input-box">
+          <i class="bx bx-user"></i>
+          <input type="text" placeholder="Username" required />
         </div>
 
-        <div class="form-group">
-          <label>Mood (1-10)</label>
-          <input type="range" id="mood" min="1" max="10" />
+        <div class="input-box">
+          <i class="bx bx-lock"></i>
+          <input type="password" placeholder="Password" required />
         </div>
 
-        <div class="form-group">
-          <label>Notes</label>
-          <textarea id="notes" rows="2" placeholder="What's on you mind?"></textarea>
-        </div>
-        <button id="save-btn">Save Entry</button>
-
-        <h3 style="margin-top: 15px;">Saved Entries</h3>
-        <div id="entries-list">
-          <!-- Entryt tähän -->
+          <button type="submit" class="btn">Login</button>
         </div>
 
-      </section>
-    </div>
-    <script type="module" src="../src/main.js"></script>
+      </div>
+
   </body>
 </html>

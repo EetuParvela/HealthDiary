@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/diary.css" />
+    <title>Health Diary</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="diary.html">Päiväkirja</a>
+      <a href="bmi.html">BMI Laskuri</a>
+    </nav>
+
+    <div class="container">
+      <section id="diary-view">
+
+        <h2>Päiväkirjamerkintä</h2>
+
+        <div class="form-group">
+          <label>Päiväys</label>
+          <input type="date" id="date" />
+        </div>
+
+        <div class="form-group">
+          <label>Fiilis (1-10)</label>
+          <input type="range" id="mood" min="1" max="10" />
+        </div>
+
+        <div class="form-group">
+          <label>Muistiinpanot</label>
+          <textarea id="notes" rows="2" placeholder=""></textarea>
+        </div>
+        <button id="save-btn">Tallenna merkintä</button>
+
+        <h3 style="margin-top: 15px;">Tallennetut merkinnät</h3>
+        <div id="entries-list">
+          <!-- Entryt tähän -->
+        </div>
+
+      </section>
+    </div>
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>

@@ -1,4 +1,4 @@
-import 'src/css/diary.css';
+import '/src/css/diary.css';
 
 document.getElementById('save-btn').addEventListener('click', async () => {
   const diaryData = {
