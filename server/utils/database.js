@@ -17,7 +17,6 @@ export const testConnection = async () => {
     const connection = await promisePool.getConnection();
     console.log('MySQL Connection established successfully.');
 
-    // Always release the connection back to the pool!
     connection.release();
   } catch (err) {
     console.error('MySQL Connection failed:');
