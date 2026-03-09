@@ -41,6 +41,9 @@ Fullstack web app for Web-sovelluskehitys course
 ## Database schema
 ![Database schema](https://github.com/user-attachments/assets/3ac052df-9037-4939-9269-963e8380f943)
 
+## Future additions
+- [ ] Make a main CSS file to simplify diary and bmi calculator nav bar
+- [ ] Add more functionality e.g. a page where you can add your exercises
+
 ## AI Usage
 Google Gemini 3 was used in making the CSS for the web pages.
-
