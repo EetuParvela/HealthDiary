@@ -32,6 +32,12 @@ h1 {
   align-items: center;
 }
 
+.forms-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .register-box {
   width: 420px;
   padding: 30px 40px;
@@ -46,12 +52,17 @@ h1 {
   width: 420px;
   padding: 30px 40px;
   color: #fff;
+  margin-left: 10px;
 }
 
 .register-box h2 {
   font-size: 36px;
   text-align: center;
-  margin-bottom: 20px;
+}
+
+.login-box h2 {
+  font-size: 36px;
+  text-align: center;
 }
 
 .input-box {
