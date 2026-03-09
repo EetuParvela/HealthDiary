@@ -29,6 +29,7 @@ const registerUser = async (event) => {
 
   if (response.error) {
     console.error('Rekisteröityminen epäonnistui:', response.error);
+    showToast('Rekisteröityminen epäonnistui');
     return;
   }
 
@@ -67,6 +68,7 @@ const loginUser = async (event) => {
 
   if (response.error) {
     console.error('Kirjautuminen epäonnistui:', response.error);
+    showToast('Kirjautuminen epäonnistui');
     return;
   }
 
@@ -82,9 +84,27 @@ const loginUser = async (event) => {
   loginForm.reset();
 };
 
+function showToast(message) {
+  const container = createContainer();
+  const toast = document.createElement('div');
+  toast.className = 'toast';
+  toast.textContent = message;
+  container.appendChild(toast);
+
+  setTimeout(() => toast.remove(), 3000);
+}
+
+function createContainer() {
+  const div = document.createElement('div');
+  div.id = 'toast-container';
+  document.body.appendChild(div);
+  return div;
+}
+
 const registerForm = document.querySelector('.register-form');
 registerForm.addEventListener('submit', registerUser);
 
 const loginForm = document.querySelector('.login-form');
 loginForm.addEventListener('submit', loginUser);
 
+export {showToast}
