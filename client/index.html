@@ -2,12 +2,80 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>client</title>
+    <link rel="stylesheet" href="src/css/login.css" />
+    <link
+      href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Health Diary - Register</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <div class="wrapper">
+      <h1>Health Diary</h1>
+
+      <section class="forms-box">
+        <div class="register-box">
+          <form class="register-form" action="">
+            <h2>Register</h2>
+
+            <div class="input-box">
+              <i class="bx bx-envelope"></i>
+              <input id="email" type="email" placeholder="Email" required />
+            </div>
+
+            <div class="input-box">
+              <i class="bx bx-user"></i>
+              <input
+                id="username"
+                type="text"
+                placeholder="Username"
+                required
+              />
+            </div>
+
+            <div class="input-box">
+              <i class="bx bx-lock"></i>
+              <input
+                id="password"
+                type="password"
+                placeholder="Password"
+                required
+              />
+            </div>
+            <button type="submit" class="btn">Register</button>
+          </form>
+        </div>
+
+        <div class="login-box">
+          <form class="login-form" action="">
+            <h2>Login</h2>
+
+            <div class="input-box">
+              <i class="bx bx-user"></i>
+              <input
+                id="username"
+                type="text"
+                placeholder="Username"
+                required
+              />
+            </div>
+
+            <div class="input-box">
+              <i class="bx bx-lock"></i>
+              <input
+                id="password"
+                type="password"
+                placeholder="Password"
+                required
+              />
+            </div>
+
+            <button type="submit" class="btn">Login</button>
+          </form>
+        </div>
+      </section>
+    </div>
+    <script type="module" src="src/js/login.js"></script>
   </body>
 </html>

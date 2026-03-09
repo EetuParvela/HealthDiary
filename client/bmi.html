@@ -1,0 +1,61 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="src/css/bmi.css" />
+  </head>
+  <body>
+
+    <nav class="navbar">
+      <div class="user-profile">
+        <span id="welcome-text">Tervetuloa, <span id="username">Käyttäjä</span>!</span>
+      </div>
+
+      <div class="nav-links">
+        <a href="diary.html">Päiväkirja</a>
+        <a href="bmi.html">BMI Laskuri</a>
+      </div>
+
+      <button id="logout-btn" class="logout-btn">Kirjaudu ulos</button>
+    </nav>
+
+    <section class="wrapper">
+      <h1>BMI laskuri</h1>
+      <div class="input-container">
+
+        <div class="input-box">
+          <input type="number" id="weight" min="0" step="0.1" placeholder="Anna painosi (kg)" />
+        </div>
+
+        <div class="input-box">
+          <input type="number" id="height" min="0" step="0.01" placeholder="Anna pituutesi (m)" />
+        </div>
+
+        <button type="submit" class="btn">Laske indeksi</button>
+      </div>
+
+      <div class="result-box">
+            <h2>Tuloksesi: </h2>
+
+            <table class="bmi-table">
+              <tr class="row1">
+                <th>Alipaino</th>
+                <td>0 - 18.9</th>
+              </tr>
+              <tr class="row2">
+                <th>Normaali</th>
+                <td>19 - 24.9</th>
+              </tr>
+              <tr class="row3">
+                <th>Ylipaino</th>
+                <td>25 - 29.9 tai enemmän</th>
+              </tr>
+            </table>
+          </div>
+
+    </section>
+    <script src="/src/js/bmi.js"></script>
+  </body>
+</html>
