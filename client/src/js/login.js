@@ -79,7 +79,6 @@ const loginUser = async (event) => {
     }, 3000);
   }
 
-  console.log(response);
   loginForm.reset();
 };
 

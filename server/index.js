@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 
 // Päiväkirja API-reitit
-app.use('/api/diary', diaryRouter);
+app.use('/api/entries', diaryRouter);
 
 // Käyttäjien API-reitit
 app.use('/api/users', userRouter);

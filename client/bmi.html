@@ -1,4 +1,4 @@
-<!doctype html>
+<!Doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,8 +9,16 @@
   <body>
 
     <nav class="navbar">
-      <a href="diary.html">Päiväkirja</a>
-      <a href="bmi.html">BMI Laskuri</a>
+      <div class="user-profile">
+        <span id="welcome-text">Tervetuloa, <span id="username">Käyttäjä</span>!</span>
+      </div>
+
+      <div class="nav-links">
+        <a href="diary.html">Päiväkirja</a>
+        <a href="bmi.html">BMI Laskuri</a>
+      </div>
+
+      <button id="logout-btn" class="logout-btn">Kirjaudu ulos</button>
     </nav>
 
     <section class="wrapper">
@@ -48,5 +56,6 @@
           </div>
 
     </section>
+    <script src="/src/js/bmi.js"></script>
   </body>
 </html>

@@ -32,10 +32,14 @@ const postLogin = async (req, res) => {
 
     delete user.password;
 
-    const token = jwt.sign({id: user.id}, process.env.JWT_SECRET, {
-      expiresIn: process.env.JWT_EXPIRES_IN,
-    });
-
+    const token = jwt.sign(
+      {id: user.user_id, username: user.username},
+      process.env.JWT_SECRET,
+      {
+        expiresIn: process.env.JWT_EXPIRES_IN,
+      },
+    );
+    console.log(req.user);
     return res.json({message: 'Login successful', user, token});
   } catch (err) {
     console.error(err);
