@@ -1,4 +1,5 @@
 import {fetchData} from './fetch.js';
+import {showToast} from './utils.js';
 
 const getEntries = async () => {
   console.log('Getting entries')
@@ -41,9 +42,10 @@ const deleteEntry = async (entryId) => {
     });
 
     if (response.ok) {
+      showToast('Poistaminen onnistui!')
       renderEntries('entries-list');
     } else {
-      alert('Poisto epäonnistui.');
+      showToast('Poistaminen epäonnistui!')
     }
   } catch (err) {
     console.error('Virhe poistossa:', err);

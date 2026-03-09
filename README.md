@@ -44,6 +44,7 @@ Fullstack web app for Web-sovelluskehitys course
 ## Future additions
 - [ ] Make a main CSS file to simplify diary and bmi calculator nav bar
 - [ ] Add more functionality e.g. a page where you can add your exercises
+- [ ] Replace remaining confirm boxes with modern custom boxes
 
 ## AI Usage
 Google Gemini 3 was used in making the CSS for the web pages.

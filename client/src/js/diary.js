@@ -1,7 +1,7 @@
 import '/src/css/diary.css';
 import {fetchData} from './fetch.js';
 import {renderEntries} from './entries.js';
-import {showToast} from './login.js';
+import {showToast} from './utils.js';
 
 // Stop access to the site if not logged in
 const checkLogin = () => {
@@ -82,11 +82,12 @@ const saveEntry = async (event) => {
 
   if (response.error) {
     console.error('Saving entry failed:', response.error);
-    showToast('Tallentaminen epäonnistui')
+    showToast('Tallentaminen epäonnistui!');
     return;
   }
 
   if (response.message) {
+    showToast('Tallentaminen onnistui!')
     console.log(response.message, 'success');
   }
 
@@ -94,7 +95,6 @@ const saveEntry = async (event) => {
   entryForm.reset();
   renderEntries();
 };
-
 
 const logout = () => {
   localStorage.removeItem('token');
