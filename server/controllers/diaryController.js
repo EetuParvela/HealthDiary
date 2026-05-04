@@ -21,10 +21,6 @@ const createEntry = async (req, res) => {
 };
 
 const deleteEntry = async (req, res) => {
-  console.log("--- DELETE REQUEST RECEIVED ---");
-  console.log("Params ID:", req.params.id);
-  console.log("User from Token:", req.user);
-
   const user_id = req.user.id;
   const entry_id = req.params.id;
 

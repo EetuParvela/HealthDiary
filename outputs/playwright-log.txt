@@ -1,0 +1,369 @@
+{"level":30,"time":"2026-05-04T21:16:37.401Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Listening on 127.0.0.1:50061"}
+{"level":30,"time":"2026-05-04T21:16:38.418Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-05-04T21:16:38.747Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Adding browser to stack: chromium, version: 147.0.7727.15"}
+{"level":30,"time":"2026-05-04T21:16:38.747Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-05-04T21:16:38.747Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-05-04T21:16:38.750Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-05-04T21:16:38.750Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-05-04T21:16:38.750Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"currentBrowser: {\"_contextStack\":[],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@6c032b877378d2fd646612060da56c41\"},\"name\":\"chromium\",\"id\":\"browser=05d31175-a9a2-4ec3-a3a6-450a07745522\",\"headless\":false}"}
+{"level":30,"time":"2026-05-04T21:16:38.750Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Trace file: "}
+{"level":30,"time":"2026-05-04T21:16:38.755Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Setting default timeout for context context=fada3a30-98c3-469c-bc97-32bc296c67f6 to 10000"}
+{"level":30,"time":"2026-05-04T21:16:38.755Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Changed active context: context=fada3a30-98c3-469c-bc97-32bc296c67f6"}
+{"level":30,"time":"2026-05-04T21:16:38.755Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method newContext"}
+{"level":30,"time":"2026-05-04T21:16:38.758Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-05-04T21:16:38.758Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"currentBrowser: {\"_contextStack\":[{\"id\":\"context=fada3a30-98c3-469c-bc97-32bc296c67f6\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@4d5d691385e4c89b8fa7a5a5739e4c72\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@6c032b877378d2fd646612060da56c41\"},\"name\":\"chromium\",\"id\":\"browser=05d31175-a9a2-4ec3-a3a6-450a07745522\",\"headless\":false}"}
+{"level":30,"time":"2026-05-04T21:16:38.919Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-05-04T21:16:38.919Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Changed active page"}
+{"level":30,"time":"2026-05-04T21:16:39.478Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-05-04T21:16:39.486Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:39.487Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=login-username in page."}
+{"level":30,"time":"2026-05-04T21:16:39.513Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:39.516Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:39.516Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=login-password in page."}
+{"level":30,"time":"2026-05-04T21:16:39.552Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:39.553Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-05-04T21:16:39.554Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
+{"level":30,"time":"2026-05-04T21:16:39.570Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2026-05-04T21:16:39.572Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-05-04T21:16:39.572Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=entry_date in page."}
+{"level":30,"time":"2026-05-04T21:16:40.364Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-05-04T21:16:40.367Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-05-04T21:16:40.373Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Removed page=3809ed0d-d906-447c-ba2c-c38215f1eb85 from context=fada3a30-98c3-469c-bc97-32bc296c67f6 page stack"}
+{"level":30,"time":"2026-05-04T21:16:40.423Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:8777:13)
+    at PlaywrightServer.getActiveBrowser (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:9689:52)
+    at PlaywrightServer.setTimeout (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:9887:56)
+    at Object.onReceiveHalfClose (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-05-04T21:16:40.426Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:40.426Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:8777:13)
+    at PlaywrightServer.getActiveBrowser (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:9689:52)
+    at PlaywrightServer.setTimeout (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:9887:56)
+    at Object.onReceiveHalfClose (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-05-04T21:16:40.427Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:40.427Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:40.477Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:40.477Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:42.413Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:42.413Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:42.415Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-05-04T21:16:42.608Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Adding browser to stack: chromium, version: 147.0.7727.15"}
+{"level":30,"time":"2026-05-04T21:16:42.609Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-05-04T21:16:42.609Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-05-04T21:16:42.611Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-05-04T21:16:42.611Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-05-04T21:16:42.611Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"currentBrowser: {\"_contextStack\":[],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@8378ae68e7def5b36ed8ad53bc818fa5\"},\"name\":\"chromium\",\"id\":\"browser=6f2b4356-f48a-4c04-86e1-5ffe5824b943\",\"headless\":false}"}
+{"level":30,"time":"2026-05-04T21:16:42.611Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Trace file: "}
+{"level":30,"time":"2026-05-04T21:16:42.613Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Setting default timeout for context context=02c73067-812b-4faf-bda0-5d39d9001483 to 10000"}
+{"level":30,"time":"2026-05-04T21:16:42.613Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Changed active context: context=02c73067-812b-4faf-bda0-5d39d9001483"}
+{"level":30,"time":"2026-05-04T21:16:42.613Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method newContext"}
+{"level":30,"time":"2026-05-04T21:16:42.615Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-05-04T21:16:42.615Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"currentBrowser: {\"_contextStack\":[{\"id\":\"context=02c73067-812b-4faf-bda0-5d39d9001483\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@789e77bcda6c25e16eb6b80231392b0e\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@8378ae68e7def5b36ed8ad53bc818fa5\"},\"name\":\"chromium\",\"id\":\"browser=6f2b4356-f48a-4c04-86e1-5ffe5824b943\",\"headless\":false}"}
+{"level":30,"time":"2026-05-04T21:16:42.769Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-05-04T21:16:42.769Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Changed active page"}
+{"level":30,"time":"2026-05-04T21:16:43.551Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-05-04T21:16:43.558Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:43.558Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=login-username in page."}
+{"level":30,"time":"2026-05-04T21:16:43.581Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:43.584Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:43.584Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=login-password in page."}
+{"level":30,"time":"2026-05-04T21:16:43.619Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:43.621Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-05-04T21:16:43.621Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
+{"level":30,"time":"2026-05-04T21:16:43.636Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2026-05-04T21:16:43.637Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-05-04T21:16:43.637Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=entry_date in page."}
+{"level":30,"time":"2026-05-04T21:16:44.429Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-05-04T21:16:44.432Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-05-04T21:16:44.435Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Removed page=6f4e35a2-c3c1-463b-b686-129e0e9da7ef from context=02c73067-812b-4faf-bda0-5d39d9001483 page stack"}
+{"level":30,"time":"2026-05-04T21:16:44.485Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:8777:13)
+    at PlaywrightServer.getActiveBrowser (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:9689:52)
+    at PlaywrightServer.setTimeout (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:9887:56)
+    at Object.onReceiveHalfClose (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-05-04T21:16:44.487Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:44.487Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:8777:13)
+    at PlaywrightServer.getActiveBrowser (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:9689:52)
+    at PlaywrightServer.setTimeout (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:9887:56)
+    at Object.onReceiveHalfClose (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-05-04T21:16:44.488Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:44.488Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:44.494Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:44.494Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:44.495Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:44.495Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:44.496Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-05-04T21:16:44.680Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Adding browser to stack: chromium, version: 147.0.7727.15"}
+{"level":30,"time":"2026-05-04T21:16:44.680Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-05-04T21:16:44.680Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-05-04T21:16:44.682Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-05-04T21:16:44.682Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-05-04T21:16:44.682Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"currentBrowser: {\"_contextStack\":[],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@cf324f9cf367b20713917e534f18a769\"},\"name\":\"chromium\",\"id\":\"browser=bcb5e77c-25d4-41cc-8d39-d921883401ca\",\"headless\":false}"}
+{"level":30,"time":"2026-05-04T21:16:44.682Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Trace file: "}
+{"level":30,"time":"2026-05-04T21:16:44.684Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Setting default timeout for context context=762755b4-31ef-4cfc-b530-f46beb6b7016 to 10000"}
+{"level":30,"time":"2026-05-04T21:16:44.684Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Changed active context: context=762755b4-31ef-4cfc-b530-f46beb6b7016"}
+{"level":30,"time":"2026-05-04T21:16:44.684Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method newContext"}
+{"level":30,"time":"2026-05-04T21:16:44.686Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-05-04T21:16:44.686Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"currentBrowser: {\"_contextStack\":[{\"id\":\"context=762755b4-31ef-4cfc-b530-f46beb6b7016\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@ad45fd6b4c63700d9a2ff6fb09706c30\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@cf324f9cf367b20713917e534f18a769\"},\"name\":\"chromium\",\"id\":\"browser=bcb5e77c-25d4-41cc-8d39-d921883401ca\",\"headless\":false}"}
+{"level":30,"time":"2026-05-04T21:16:44.834Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-05-04T21:16:44.834Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Changed active page"}
+{"level":30,"time":"2026-05-04T21:16:45.284Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-05-04T21:16:45.290Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:45.290Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=login-username in page."}
+{"level":30,"time":"2026-05-04T21:16:45.315Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:45.319Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:45.319Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=login-password in page."}
+{"level":30,"time":"2026-05-04T21:16:45.356Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:45.357Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-05-04T21:16:45.357Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
+{"level":30,"time":"2026-05-04T21:16:45.377Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2026-05-04T21:16:45.379Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-05-04T21:16:45.379Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=entry_date in page."}
+{"level":30,"time":"2026-05-04T21:16:46.168Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-05-04T21:16:46.170Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-05-04T21:16:46.174Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Removed page=290e9362-5f37-4944-a47c-baef91d4b3b0 from context=762755b4-31ef-4cfc-b530-f46beb6b7016 page stack"}
+{"level":30,"time":"2026-05-04T21:16:46.226Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:8777:13)
+    at PlaywrightServer.getActiveBrowser (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:9689:52)
+    at PlaywrightServer.setTimeout (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:9887:56)
+    at Object.onReceiveHalfClose (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-05-04T21:16:46.228Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:46.228Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:8777:13)
+    at PlaywrightServer.getActiveBrowser (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:9689:52)
+    at PlaywrightServer.setTimeout (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:9887:56)
+    at Object.onReceiveHalfClose (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-05-04T21:16:46.229Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:46.229Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:46.231Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:46.231Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:46.232Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:46.232Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:46.233Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-05-04T21:16:46.416Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Adding browser to stack: chromium, version: 147.0.7727.15"}
+{"level":30,"time":"2026-05-04T21:16:46.417Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-05-04T21:16:46.417Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-05-04T21:16:46.419Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-05-04T21:16:46.419Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-05-04T21:16:46.419Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"currentBrowser: {\"_contextStack\":[],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@1f978da57cf31a777049ddcf2f0b67b0\"},\"name\":\"chromium\",\"id\":\"browser=62f5c186-9af0-41c4-a664-16aa648034ff\",\"headless\":false}"}
+{"level":30,"time":"2026-05-04T21:16:46.419Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Trace file: "}
+{"level":30,"time":"2026-05-04T21:16:46.421Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Setting default timeout for context context=37f0dcba-6d80-4d81-8bc7-1e909e2e568b to 10000"}
+{"level":30,"time":"2026-05-04T21:16:46.421Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Changed active context: context=37f0dcba-6d80-4d81-8bc7-1e909e2e568b"}
+{"level":30,"time":"2026-05-04T21:16:46.421Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method newContext"}
+{"level":30,"time":"2026-05-04T21:16:46.423Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-05-04T21:16:46.423Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"currentBrowser: {\"_contextStack\":[{\"id\":\"context=37f0dcba-6d80-4d81-8bc7-1e909e2e568b\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@c0392ac83c0e4dcb83feb3cc75d6bf93\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@1f978da57cf31a777049ddcf2f0b67b0\"},\"name\":\"chromium\",\"id\":\"browser=62f5c186-9af0-41c4-a664-16aa648034ff\",\"headless\":false}"}
+{"level":30,"time":"2026-05-04T21:16:46.575Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-05-04T21:16:46.575Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Changed active page"}
+{"level":30,"time":"2026-05-04T21:16:47.011Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-05-04T21:16:47.018Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:47.018Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=login-username in page."}
+{"level":30,"time":"2026-05-04T21:16:47.042Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:47.045Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:47.045Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=login-password in page."}
+{"level":30,"time":"2026-05-04T21:16:47.082Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:47.084Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-05-04T21:16:47.084Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
+{"level":30,"time":"2026-05-04T21:16:47.103Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2026-05-04T21:16:47.104Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-05-04T21:16:47.104Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=entry_date in page."}
+{"level":30,"time":"2026-05-04T21:16:47.893Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-05-04T21:16:47.895Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-05-04T21:16:47.895Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=entry_date in page."}
+{"level":30,"time":"2026-05-04T21:16:47.896Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-05-04T21:16:47.898Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:47.898Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=entry_date in page."}
+{"level":30,"time":"2026-05-04T21:16:47.901Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:47.903Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:47.903Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=mood in page."}
+{"level":30,"time":"2026-05-04T21:16:47.905Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:47.906Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:47.906Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=sleep_hours in page."}
+{"level":30,"time":"2026-05-04T21:16:47.909Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:47.910Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:47.910Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=weight in page."}
+{"level":30,"time":"2026-05-04T21:16:47.912Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:47.913Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:47.913Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=notes in page."}
+{"level":30,"time":"2026-05-04T21:16:47.915Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:47.916Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-05-04T21:16:47.916Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=save-btn in page."}
+{"level":30,"time":"2026-05-04T21:16:47.936Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2026-05-04T21:16:47.937Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-05-04T21:16:47.937Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with css=.entries-list in page."}
+{"level":30,"time":"2026-05-04T21:16:47.949Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Retrieved text for element css=.entries-list containing 5.5.2026\nFiilis: 8/10\nUni: 7h\nPaino: 75.00kg\n\nFeeling good after a healthy breakfast.\n\nPoista\n5.5.2026\nFiilis: 8/10\nUni: 7h\nPaino: 75.00kg\n\nFeeling good after a healthy breakfast.\n\nPoista\n5.5.2026\nFiilis: 8/10\nUni: 7h\nPaino: 75.00kg\n\nFeeling good after a healthy breakfast.\n\nPoista\n5.5.2026\nFiilis: 8/10\nUni: 7h\nPaino: 75.00kg\n\nFeeling good after a healthy breakfast.\n\nPoista\n5.5.2026\nFiilis: 8/10\nUni: 7h\nPaino: 75.00kg\n\nFeeling good after a healthy breakfast.\n\nPoista\n5.5.2026\nFiilis: 8/10\nUni: 7h\nPaino: 75.00kg\n\nTesting\n\nPoista\n4.5.2026\nFiilis: 6/10\nUni: 7h\nPaino: 75.00kg\n\nTesti muistiinpano\n\nPoista\n4.5.2026\nFiilis: 8/10\nUni: 8h\nPaino: 75.00kg\n\nToday I feel energized!\n\nPoista\n4.5.2026\nFiilis: 8/10\nUni: 8h\nPaino: 75.00kg\n\nToday I feel energized!\n\nPoista"}
+{"level":30,"time":"2026-05-04T21:16:47.949Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-05-04T21:16:47.951Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-05-04T21:16:47.953Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Removed page=e3d60600-c719-4b96-92e8-2cfcc31a6764 from context=37f0dcba-6d80-4d81-8bc7-1e909e2e568b page stack"}
+{"level":30,"time":"2026-05-04T21:16:47.997Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:8777:13)
+    at PlaywrightServer.getActiveBrowser (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:9689:52)
+    at PlaywrightServer.setTimeout (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:9887:56)
+    at Object.onReceiveHalfClose (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-05-04T21:16:47.999Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:47.999Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:8777:13)
+    at PlaywrightServer.getActiveBrowser (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:9689:52)
+    at PlaywrightServer.setTimeout (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:9887:56)
+    at Object.onReceiveHalfClose (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-05-04T21:16:48.001Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:48.001Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:48.006Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:48.006Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:48.006Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:48.006Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:48.007Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-05-04T21:16:48.189Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Adding browser to stack: chromium, version: 147.0.7727.15"}
+{"level":30,"time":"2026-05-04T21:16:48.189Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-05-04T21:16:48.189Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-05-04T21:16:48.192Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-05-04T21:16:48.192Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-05-04T21:16:48.192Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"currentBrowser: {\"_contextStack\":[],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@23f3014a95f548d28cb03c967dea921c\"},\"name\":\"chromium\",\"id\":\"browser=c6eba1d0-3115-46be-ac66-6eb71c20aba4\",\"headless\":false}"}
+{"level":30,"time":"2026-05-04T21:16:48.192Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Trace file: "}
+{"level":30,"time":"2026-05-04T21:16:48.194Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Setting default timeout for context context=6694f55e-d1fb-4e71-8b50-0318dd496b46 to 10000"}
+{"level":30,"time":"2026-05-04T21:16:48.195Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Changed active context: context=6694f55e-d1fb-4e71-8b50-0318dd496b46"}
+{"level":30,"time":"2026-05-04T21:16:48.195Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method newContext"}
+{"level":30,"time":"2026-05-04T21:16:48.196Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-05-04T21:16:48.196Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"currentBrowser: {\"_contextStack\":[{\"id\":\"context=6694f55e-d1fb-4e71-8b50-0318dd496b46\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@00a7c8f72471bbec56c3868312211abd\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@23f3014a95f548d28cb03c967dea921c\"},\"name\":\"chromium\",\"id\":\"browser=c6eba1d0-3115-46be-ac66-6eb71c20aba4\",\"headless\":false}"}
+{"level":30,"time":"2026-05-04T21:16:48.343Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-05-04T21:16:48.343Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Changed active page"}
+{"level":30,"time":"2026-05-04T21:16:48.942Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-05-04T21:16:48.944Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method selectOption"}
+{"level":30,"time":"2026-05-04T21:16:48.944Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with css=select[name=\"my-select\"] in page."}
+{"level":30,"time":"2026-05-04T21:16:48.971Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Option entries: 4"}
+{"level":30,"time":"2026-05-04T21:16:48.971Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Selected entries: 1"}
+{"level":30,"time":"2026-05-04T21:16:48.971Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method selectOption"}
+{"level":30,"time":"2026-05-04T21:16:48.973Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:48.973Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with css=input[name=\"my-datalist\"] in page."}
+{"level":30,"time":"2026-05-04T21:16:48.976Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:48.978Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method uploadFile"}
+{"level":30,"time":"2026-05-04T21:16:48.978Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-05-04T21:16:48.978Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with css=input[name=\"my-file\"] in page."}
+{"level":30,"time":"2026-05-04T21:16:48.995Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2026-05-04T21:16:48.997Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method checkCheckbox"}
+{"level":30,"time":"2026-05-04T21:16:48.997Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=my-check-2 in page."}
+{"level":30,"time":"2026-05-04T21:16:49.000Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method uploadFile"}
+{"level":30,"time":"2026-05-04T21:16:49.044Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method checkCheckbox"}
+{"level":30,"time":"2026-05-04T21:16:49.045Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-05-04T21:16:49.045Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=my-radio-2 in page."}
+{"level":30,"time":"2026-05-04T21:16:49.059Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2026-05-04T21:16:49.060Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:49.060Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with css=textarea[name=\"my-textarea\"] in page."}
+{"level":30,"time":"2026-05-04T21:16:49.062Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:49.063Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:49.063Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with css=input[name=\"my-date\"] in page."}
+{"level":30,"time":"2026-05-04T21:16:49.068Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-04T21:16:49.070Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-05-04T21:16:49.070Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with css=button[type=\"submit\"] in page."}
+{"level":30,"time":"2026-05-04T21:16:49.350Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2026-05-04T21:16:49.354Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-05-04T21:16:49.354Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=message in page."}
+{"level":30,"time":"2026-05-04T21:16:49.379Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Retrieved text for element id=message containing Received!"}
+{"level":30,"time":"2026-05-04T21:16:49.379Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-05-04T21:16:49.381Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-05-04T21:16:49.387Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Removed page=d0f0eb1b-7d55-4596-804d-bcadca8b7284 from context=6694f55e-d1fb-4e71-8b50-0318dd496b46 page stack"}
+{"level":30,"time":"2026-05-04T21:16:49.430Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:8777:13)
+    at PlaywrightServer.getActiveBrowser (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:9689:52)
+    at PlaywrightServer.setTimeout (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:9887:56)
+    at Object.onReceiveHalfClose (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-05-04T21:16:49.433Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:49.433Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:8777:13)
+    at PlaywrightServer.getActiveBrowser (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:9689:52)
+    at PlaywrightServer.setTimeout (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:9887:56)
+    at Object.onReceiveHalfClose (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (/Users/eparvela/HealthDiary/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-05-04T21:16:49.434Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:49.434Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-04T21:16:49.448Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-05-04T21:16:49.448Z","pid":54020,"hostname":"Eetu-MacBook-Pro.local","msg":"End of node method closeAllBrowsers"}

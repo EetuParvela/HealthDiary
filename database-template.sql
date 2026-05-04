@@ -1,6 +1,6 @@
-CREATE DATABASE HealthDiary;
+CREATE DATABASE health_diary;
 
-USE HealthDiary;
+USE health_diary;
 
 CREATE TABLE Users (
     user_id INT AUTO_INCREMENT PRIMARY KEY,

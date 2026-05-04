@@ -47,8 +47,8 @@ const loginUser = async (event) => {
 
   const loginForm = document.querySelector('.login-form');
 
-  const username = loginForm.querySelector('#username').value.trim();
-  const password = loginForm.querySelector('#password').value.trim();
+  const username = loginForm.querySelector('#login-username').value.trim();
+  const password = loginForm.querySelector('#login-password').value.trim();
 
   const bodyData = {
     username: username,
@@ -79,7 +79,7 @@ const loginUser = async (event) => {
     localStorage.setItem('name', response.user.username);
     setTimeout(function () {
       window.location.href = 'diary.html';
-    }, 3000);
+    }, 500);
   }
 
   loginForm.reset();

@@ -35,11 +35,14 @@ const deleteEntry = async (entryId) => {
   if (!confirm('Haluatko varmasti poistaa tämän merkinnän?')) return;
 
   const token = localStorage.getItem('token');
+  const url = `http://localhost:8000/api/entries/${entryId}`
+  const options = {
+    method: 'DELETE',
+    headers: { 'Authorization': `Bearer ${token}` }
+  }
+
   try {
-    const response = await fetch(`http://localhost:8000/api/entries/${entryId}`, {
-      method: 'DELETE',
-      headers: { 'Authorization': `Bearer ${token}` }
-    });
+    const response = await fetch(url, options);
 
     if (response.ok) {
       showToast('Poistaminen onnistui!')

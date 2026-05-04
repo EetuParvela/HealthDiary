@@ -24,6 +24,36 @@ const UserModel = {
     const [rows] = await db.execute(sql);
     return rows;
   },
+  selectUserByEmail: async (email) => {
+    try {
+      const sql = 'SELECT * FROM Users WHERE email=?';
+      const params = [email];
+      const [rows] = await db.query(sql, params);
+
+      if (rows.length === 0) {
+        return {error: 404, message: 'User not found'};
+      }
+      delete rows[0].password;
+      return rows[0];
+    } catch (error) {
+      console.error('selectUserByEmail', error);
+      return {error: 500, message: 'DB error'};
+    }
+  },
+  selectUserById: async (userId) => {
+    try {
+      const sql = 'SELECT * FROM Users WHERE user_id=?'
+      const params = [userId]
+      const [rows] = await db.query(sql, params);
+
+      if (rows.length === 0) {
+        return {error: 404, message: 'UserId not found'};
+      }
+    } catch (error) {
+      console.error('selectUserById', error);
+      return {error: 500, message: 'DB error'}
+    }
+  },
 };
 
 export default UserModel;

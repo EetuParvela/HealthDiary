@@ -96,6 +96,7 @@ const saveEntry = async (event) => {
   renderEntries();
 };
 
+// Remove the user data from localStorage
 const logout = () => {
   localStorage.removeItem('token');
   localStorage.removeItem('name');

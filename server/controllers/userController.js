@@ -24,6 +24,7 @@ const postUser = async (req, res) => {
 const postLogin = async (req, res) => {
   try {
     const {username, password} = req.body;
+    console.log(username, password);
     const user = await userModel.findByUsername(username);
 
     if (!user || !(await bcrypt.compare(password, user.password))) {
