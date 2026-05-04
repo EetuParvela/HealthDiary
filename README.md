@@ -105,7 +105,8 @@ The test log and report files can be found here: [Outputs](/outputs/)
 
 ### Exercise 8 - Github.io page
 
-
+[Log File](outputs/log.html) \
+[Report File](outputs/report.html)
 
 ### Exercise 9 - API tests
 
